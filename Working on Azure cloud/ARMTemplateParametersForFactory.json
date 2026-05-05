@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "policyprojdataadf"
+        },
+        "SqlDbLinkedService_password": {
+            "value": ""
+        },
+        "Adls_ls_accountKey": {
+            "value": ""
+        },
+        "AzureDatabricks1_accessToken": {
+            "value": ""
+        },
+        "SqlDbLinkedService_properties_typeProperties_server": {
+            "value": "policyprojsqlserver.database.windows.net"
+        },
+        "SqlDbLinkedService_properties_typeProperties_database": {
+            "value": "policydatabse"
+        },
+        "SqlDbLinkedService_properties_typeProperties_userName": {
+            "value": "policy"
+        },
+        "Adls_ls_properties_typeProperties_url": {
+            "value": "https://projpolicysytem.dfs.core.windows.net/"
+        }
+    }
+}
